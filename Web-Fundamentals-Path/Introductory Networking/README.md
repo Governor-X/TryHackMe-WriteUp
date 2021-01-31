@@ -1,5 +1,7 @@
 # [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 
+### Created by  [MuirlandOracle](https://tryhackme.com/p/MuirlandOracle)
+
 
 ## Task 2 - The OSI Model: An Overview
 
@@ -218,10 +220,36 @@ A: - After we study the infromation we determine that **Redmond** is the registr
 
 >Q: - "What is the name of the golf course that is near the registrant address for microsoft.com?"
 
-A: - After a google map search at the adress of the registrant, **Bellevue Golf Course** can be seen next to the adress.
+A: - After a google map search at the adress of the registrant, [**Bellevue Golf Course**](https://www.google.com/maps/place/Bellevue+Golf+Course/@47.6622501,-122.1454504,15.44z/data=!4m13!1m7!3m6!1s0x54900d4b4d6a7d5d:0xb20ed2fa66d35bf3!2z0KDQtdC00LzRitC90LQsINCS0LDRiNC40L3Qs9GC0L7QvSA5ODA1Miwg0KHRitC10LTQuNC90LXQvdC4INGJ0LDRgtC4!3b1!8m2!3d47.6701193!4d-122.1182369!3m4!1s0x54906d441ff622d3:0x674fb4f6e6569f39!8m2!3d47.6557658!4d-122.1518621) can be seen next to the adress.
 
 >Q: - "What is the registered Tech Email for microsoft.com?"
 
 A: - The registered tech mail is **msnhst@microsoft.com**
 
 `Tech Email: msnhst@microsoft.com`
+
+## Task 9 - Dig
+
+>Q: - "What is DNS short for?"
+
+A: -  A DNS is **Domain Name System**
+
+>Q: - "What is the first type of DNS server your computer would query when you search for a domain?"
+
+A: - After checking the local cache it would check the  **Recursive** DNS server
+
+>Q: - "What type of DNS server contains records specific to domain extensions (i.e. .com, .co.uk*, etc)*? Use the long version of the name."
+
+A: - **Top-Level Domain** deals with the domain extension.
+
+>Q: - "Where is the very first place your computer would look to find the IP address of a domain?"
+
+A: - The **local cache** is where it first checks.
+
+>Q: - "Google runs two public DNS servers. One of them can be queried with the IP 8.8.8.8, what is the IP address of the other one?"
+
+A: - A brief google search tell us that **8.8.4.4** is the second public DNS that needs to be queried. [Link](https://developers.google.com/speed/public-dns)
+
+>Q: - "If a DNS query has a TTL of 24 hours, what number would the dig query show?"
+
+A: - **86400** *(1 h = 3600seconds - > 24h x 3600 = 84 600)*
