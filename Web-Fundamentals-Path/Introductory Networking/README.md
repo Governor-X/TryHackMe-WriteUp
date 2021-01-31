@@ -137,7 +137,7 @@ A: - The transfering is done by the **Physical layer** therefore that is the par
 
 >Q: - "Can you figure out what kind of address is shown in the layer linked to the Data Link layer of the OSI model?"
 
-A: - In this case it shows the **MAC** address.
+A: - In this case it shows the [**MAC**](https://en.wikipedia.org/wiki/MAC_address) address.
 
 ## Task 6 - Ping
 
@@ -188,7 +188,7 @@ A: - Using **man traceroute** we learn that the **-t** switch, lets use use TCP 
 >Q: - "Which layer of the TCP/IP model will traceroute run on by default (Windows)?"
 
 A: - Since the traceroute sends requests and receive the path they take and the IP adresses we can surmise it is based around the
-Internet layer, which is the Network layer in the OSI Model.
+**Internet** layer, which is the Network layer in the OSI Model.
 
 ## Task 8 - WHOIS
 
