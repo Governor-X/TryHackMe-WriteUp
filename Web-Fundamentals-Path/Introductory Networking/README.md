@@ -150,3 +150,19 @@ A: - When we use the **ping muirlandoracle.co.uk** command we receive the follow
 `PING muirlandoracle.co.uk (217.160.0.152) 56(84) bytes of data.`
 
 From this we can see that the IPv4 adress is **217.160.0.152**
+
+>Q: - "What switch lets you change the interval of sent ping requests?"
+
+A: - As per the **man pages** we learn the following **-i**
+
+`-i interval ; Wait interval seconds between sending each packet. `
+
+>Q: - "What switch would allow you to restrict requests to IPv4?"
+
+A: - We use **-4** to restrict to IPv4, as stated in **man pages**
+
+>Q: - "What switch would give you a more verbose output?"
+
+A: - We use **-v** to specify a more verbose output as written in **man pages**
+
+` Verbose output. Do not suppress DUP replies when pinging multicast address.`
