@@ -1,4 +1,4 @@
-# Introductory Networking
+# (Introductory Networking)[https://tryhackme.com/room/introtonetworking]
 
 
 ## Task 2 - The OSI Model: An Overview
@@ -136,3 +136,14 @@ A: - The transfering is done by the **Physical layer** therefore that is the par
 >Q: - "Can you figure out what kind of address is shown in the layer linked to the Data Link layer of the OSI model?"
 
 A: - In this case it shows the **MAC** address.
+
+## Task 6 - Ping
+
+>Q: - "What command would you use to ping the bbc.co.uk website?"
+
+A: - In this case we use the standard **ping** command **ping bbc.co.uk**
+
+>Q: - "Ping muirlandoracle.co.uk ; What is the IPv4 address?"
+
+A: - When we use the **ping muirlandoracle.co.uk** command we receive the following information - >PING muirlandoracle.co.uk (217.160.0.152) 56(84) bytes of data.
+From this we can see that the IPv4 adress is **217.160.0.152**
