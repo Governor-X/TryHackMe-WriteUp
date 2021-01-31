@@ -3,7 +3,8 @@
 
 ## Task 2 - The OSI Model: An Overview
 
-Q: - "Which layer would choose to send data over TCP or UDP?"
+Q: - > "Which layer would choose to send data over TCP or UDP?"
+
 A: - **Transport Layer(#4)** is used, it chooses which protocol to use TCP or UDP and both have their advantages.
 
 Q: - "Which layer checks received packets to make sure that they haven't been corrupted?"
