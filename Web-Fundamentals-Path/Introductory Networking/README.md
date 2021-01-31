@@ -1,4 +1,4 @@
-# (Introductory Networking)[https://tryhackme.com/room/introtonetworking]
+# [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 
 
 ## Task 2 - The OSI Model: An Overview
