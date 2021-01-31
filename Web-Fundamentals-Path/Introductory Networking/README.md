@@ -53,46 +53,60 @@ A: - When it concers live video, we need fast transfered data , therefore we wil
 
 ## Task 3 - Encapsulation
 
-Q: - "How would you refer to data at layer 2 of the encapsulation process (with the OSI model)?"
+>Q: - "How would you refer to data at layer 2 of the encapsulation process (with the OSI model)?"
+
 A: - Layer 2 of the encapsulation is the Data Link layer(#2), therefore the data is refered as **"Frames"**
 
-Q: - "How would you refer to data at layer 4 of the encapsulation process (with the OSI model), if the UDP protocol has been selected?"
+>Q: - "How would you refer to data at layer 4 of the encapsulation process (with the OSI model), if the UDP protocol has been selected?"
+
 A: - At layer 4 which is the Transportation Layer(#4), the UDP "bite-sized" data that is encapsulated would be called **"datagrams"**
 
-Q: - "What process would a computer perform on a received message?"
+>Q: - "What process would a computer perform on a received message?"
+
 A: - The reverse process of encapsulation which is **"de-encapsulation"**
 
-Q: - "Which is the only layer of the OSI model to add a trailer during encapsulation?"
+>Q: - "Which is the only layer of the OSI model to add a trailer during encapsulation?"
+
 A: - **The Data Link layer(#2)** adds a trailer at the end which verifies if the data has been corrupted on transmission.
 
-Q: - "Does encapsulation provide an extra layer of security (Aye/Nay)?"
+>Q: - "Does encapsulation provide an extra layer of security (Aye/Nay)?"
+
 A: - Aye!
 
 ## Task 4 - The TCP/IP Model
 
-Q: - "Which model was introduced first, OSI or TCP/IP?"
+>Q: - "Which model was introduced first, OSI or TCP/IP?"
+
 A: - **TCP/IP** was firstly introduced, after OSI was also introduced, it only is left as a starting learning point since its a bit more robust.
 
-Q: - "Which layer of the TCP/IP model covers the functionality of the Transport layer of the OSI model"
+>Q: - "Which layer of the TCP/IP model covers the functionality of the Transport layer of the OSI model"
+
 A: - Just like in the OSI model in the TCP/IP Model the **Transport layer** covers that.
 
-Q: - "Which layer of the TCP/IP model covers the functionality of the Session layer of the OSI model"
+>Q: - "Which layer of the TCP/IP model covers the functionality of the Session layer of the OSI model"
+
 A: - In the TCP/IP model the **Application** covers the functionality of the Session Layer(OSI Model).
 
-Q: - "The Network Interface layer of the TCP/IP model covers the functionality of two layers in the OSI model. These layers are Data Link, and?.. "
+>Q: - "The Network Interface layer of the TCP/IP model covers the functionality of two layers in the OSI model. These layers are Data Link, and?.. "
+
 A: - The Network Interface layer of TCP/IP covers the duo of the Data Link and the **Physical Layer** inside the OSI model.
 
-Q: - "Which layer of the TCP/IP model handles the functionality of the OSI network layer?"
+>Q: - "Which layer of the TCP/IP model handles the functionality of the OSI network layer?"
+
 A: - In the TCP/IP model we call it **Internet**
 
-Q: - "What kind of protocol is TCP?"
+>Q: - "What kind of protocol is TCP?"
+
 A: - TCP is a **connection-based** protocol.
 
-Q: - "What is SYN short for?"
+>Q: - "What is SYN short for?"
+
 A: - Synchronise.
 
-Q: - "What is the second step of the three way handshake?"
+>Q: - "What is the second step of the three way handshake?"
+
 A: - SYN/ACK (which refers to Synchronise/acknowledgement)
 
-Q: - "What is the short name for the "Acknowledgement" segment in the three-way handshake?"
+>Q: - "What is the short name for the "Acknowledgement" segment in the three-way handshake?"
+
 A: - ACK
