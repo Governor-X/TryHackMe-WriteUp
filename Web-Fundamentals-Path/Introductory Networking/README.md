@@ -1,6 +1,6 @@
 # [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 
-### Created by  [MuirlandOracle](https://tryhackme.com/p/MuirlandOracle)
+### Room created by  [MuirlandOracle](https://tryhackme.com/p/MuirlandOracle)
 
 
 ## Task 2 - The OSI Model: An Overview
