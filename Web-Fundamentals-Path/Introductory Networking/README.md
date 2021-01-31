@@ -166,3 +166,62 @@ A: - We use **-4** to restrict to IPv4, as stated in **man pages**
 A: - We use **-v** to specify a more verbose output as written in **man pages**
 
 ` Verbose output. Do not suppress DUP replies when pinging multicast address.`
+
+## Task 7 - Traceroute
+
+>Q: - "Use traceroute on tryhackme.com ; Can you see the path your request has taken?" 
+
+A: - Just test the command **traceroute tryhackme.com** and study what you get as a result!
+
+>Q: - "What switch would you use to specify an interface when using Traceroute?"
+
+A: - Using **man traceroute** we learn that the **-i** switch, lets use specify and interface
+
+`Specifies the interface  through  which  traceroute  should send packets`
+
+>Q: - "What switch would you use if you wanted to use TCP SYN requests when tracing the route?"
+
+A: - Using **man traceroute** we learn that the **-t** switch, lets use use TCP SYN requests.
+
+>Q: - "Which layer of the TCP/IP model will traceroute run on by default (Windows)?"
+
+A: - Since the traceroute sends requests and receive the path they take and the IP adresses we can surmise it is based around the
+Internet layer, which is the Network layer in the OSI Model.
+
+## Task 8 - WHOIS
+
+>Q: - "Perform a whois search on facebook.com"
+
+A: - Simply run a **whois facebook.com** and study the information received!
+
+>Q: - "What is the registrant postal code for facebook.com?"
+
+A: - After studying the whois of facebook.com we can determine the postal code is **94025**
+
+`Tech Postal Code: 94025`
+
+>Q: - "When was the facebook.com domain first registered?"
+
+A: - Again after studying the whois , we learn the date it **29/03/1997**
+
+`Creation Date: 1997-03-29T05:00:00Z`
+
+>Q: - "Perform a whois search on microsoft.com"
+
+A: - We just perform a **whois microsoft.com** and study the given information again!
+
+>Q: - "Which city is the registrant based in?"
+
+A: - After we study the infromation we determine that **Redmond** is the registrant city.
+
+`Registrant City: Redmond`
+
+>Q: - "What is the name of the golf course that is near the registrant address for microsoft.com?"
+
+A: - After a google map search at the adress of the registrant, **Bellevue Golf Course** can be seen next to the adress.
+
+>Q: - "What is the registered Tech Email for microsoft.com?"
+
+A: - The registered tech mail is **msnhst@microsoft.com**
+
+`Tech Email: msnhst@microsoft.com`
