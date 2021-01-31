@@ -110,3 +110,29 @@ A: - SYN/ACK (which refers to Synchronise/acknowledgement)
 >Q: - "What is the short name for the "Acknowledgement" segment in the three-way handshake?"
 
 A: - ACK
+
+## Task 5 - Wireshark
+
+>Q: - "What is the protocol specified in the section of the request that's linked to the Application layer of the OSI and TCP/IP Models?"
+
+A: - Domain Name System
+
+>Q: - "Which layer of the OSI model does the section that shows the IP address "172.16.16.77" link to (Name of the layer)?"
+
+A: - **Network Layer** covers the IP adresses in the OSI Model.
+
+>Q: - "In the section of the request that links to the Transport layer of the OSI and TCP/IP models, which protocol is specified?"
+
+A: - User Datagram Protocol.
+
+>Q: - "Over what medium has this request been made (linked to the Data Link layer of the OSI model)?"
+
+A: - As we see in the requests its stayed **Ethernet II** for the Data Link layer.
+
+>Q: - "Which layer of the OSI model does the section that shows the number of bytes transferred (81) link to?"
+
+A: - The transfering is done by the **Physical layer** therefore that is the part that shows the transffered number.
+
+>Q: - "Can you figure out what kind of address is shown in the layer linked to the Data Link layer of the OSI model?"
+
+A: - In this case it shows the **MAC** address.
