@@ -7,37 +7,48 @@
 
 A: - **Transport Layer(#4)** is used, it chooses which protocol to use TCP or UDP and both have their advantages.
 
-Q: - "Which layer checks received packets to make sure that they haven't been corrupted?"
+>Q: - "Which layer checks received packets to make sure that they haven't been corrupted?"
+
 A: -  **Data Link Layer(#2)** is used , outside of adding the MAC, it also checks if the data has been corrupted.(Communication Theory or Coding Theory, can teach you how such data is fixed if corrupted)
 
-Q: - "In which layer would data be formatted in preparation for transmission?"
+>Q: - "In which layer would data be formatted in preparation for transmission?"
+
 A: - **Data Link Layer(#2)** is used, it adds the physical MAC and then sends it across the network.
 
-Q: - "Which layer transmits and receives data?"
+>Q: - "Which layer transmits and receives data?"
+
 A: - **Physical Layer(#1)** is used, its the raw hardware in the computer, the impulses that it receives are what is being transfered.
 
-Q: - "In which layer would data be formatted in preparation for transmission?"
+>Q: - "In which layer would data be formatted in preparation for transmission?"
+
 A: - **Data Link Layer(#2)** is used, it adds the physical MAC and then sends it across the network.
 
-Q: - "Which layer encrypts, compresses, or otherwise transforms the initial data to give it a standardised format?"
+>Q: - "Which layer encrypts, compresses, or otherwise transforms the initial data to give it a standardised format?"
+
 A: - **Presentation Layer(#6)** is used, the information it receives is in a format that an application can read, but since eventually this will reach the hardware and other layers, it has to be standadised.
 
-Q: - "Which layer tracks communications between the host and receiving computers?"
+>Q: - "Which layer tracks communications between the host and receiving computers?"
+
 A: - **Session Layer(#5)** is used, it  tries to establish a sucessfull session between computers and responds if successfull or not.
 
-Q: - "Which layer accepts communication requests from applications?"
+>Q: - "Which layer accepts communication requests from applications?"
+
 A: - **Application Layer(#7)** is used, it essentially just works in the application and works the needed options before it passes to the Presentation Layer(#6).
 
-Q: - "Which layer handles logical addressing?"
+>Q: - "Which layer handles logical addressing?"
+
 A: - **Network Layer (3)** is used, this layer works to adress the destination, based on IP which is the logical adressing part.
 
-Q: - "When sending data over TCP, what would you call the "bite-sized" pieces of data?"
+>Q: - "When sending data over TCP, what would you call the "bite-sized" pieces of data?"
+
 A: - For TCP we call the "bite-sized" pieces of data **"segments"** , in UDP they are called "datagrams"
 
-Q: - "Which layer would the FTP protocol communicate with?"
+>Q: - "Which layer would the FTP protocol communicate with?"
+
 A: - Since FTP is built on the client-server model it runs networking options for the Application, therefore it communicates on the **Application Layer(#7)**.
 
-Q: - "Which transport layer protocol would be best suited to transmit a live video?"
+>Q: - "Which transport layer protocol would be best suited to transmit a live video?"
+
 A: - When it concers live video, we need fast transfered data , therefore we will use **UDP** to throw fast data to the targeted computer.
 
 ## Task 3 - Encapsulation
