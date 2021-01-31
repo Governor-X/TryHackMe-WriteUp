@@ -145,5 +145,6 @@ A: - In this case we use the standard **ping** command **ping bbc.co.uk**
 
 >Q: - "Ping muirlandoracle.co.uk ; What is the IPv4 address?"
 
-A: - When we use the **ping muirlandoracle.co.uk** command we receive the following information  >PING muirlandoracle.co.uk (217.160.0.152) 56(84) bytes of data.
+A: - When we use the **ping muirlandoracle.co.uk** command we receive the following information 
+>PING muirlandoracle.co.uk (217.160.0.152) 56(84) bytes of data.
 From this we can see that the IPv4 adress is **217.160.0.152**
